@@ -27,7 +27,6 @@ h2 {
 p {
     font-size: 20px;
     color: #777;
-    width: 75%;
 }
 
 /*******************Head Section*******************/
@@ -83,4 +82,62 @@ p {
 
 .about-left img {
     width: 60%;
+}
+
+/*******************Recipie Section*******************/
+.recipie-section {
+    text-align: center;
+    background-color: rgb(241, 239, 239);
+    padding: 2%;
+}
+
+.parent {
+    display: flex;
+    padding: 2% 5%;
+}
+
+.child {
+    width: 50%;
+    margin: 15px;
+    padding: 40px 40px 10px 40px;
+    background-color: #fff;
+    border-radius: 5%;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(226, 215, 215, 0.2),
+        0 6px 20px 0 rgba(209, 198, 198, 0.19);
+
+}
+
+.child img {
+    width: 100%;
+    height: 65%;
+}
+
+.p {
+    font-size: 20px;
+    color: #777;
+    width: 55%;
+    padding-left: 22%;
+}
+
+.parent-box {
+    display: inline-block;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(226, 215, 215, 0.2),
+        0 6px 20px 0 rgba(209, 198, 198, 0.19);
+    margin-top: 40px;
+}
+
+.par-parent-box {
+    display: flex;
+}
+
+.child-box {
+    margin: 20px 100px 25px 100px;
+}
+
+.child-box-h2,
+.child-box-p {
+    color: #111;
 }
